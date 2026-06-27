@@ -1,12 +1,12 @@
 # ⚙️ Algorithm Problem Solving
-> 조금씩, 꾸준히 성장하는 알고리즘 공부 기록 저장소입니다.
+> 알고리즘 문제 풀이 저장소입니다. <br> (현재 백준 서비스 종료에 따라 프로그래머스로 진행 중)
 
-## 📊 Status
-- **Main Language:** JavaScript, C++
-- **Solved.ac:** <br />
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sh2624">
-- **Programmers:** [JS 기초 진행 중]
+### ⚙️ Language
+[![My Skills](https://skillicons.dev/icons?i=js,cpp)](https://skillicons.dev)
 
-## 🛠️ Folder Structure
-- `백준/`: 백준 온라인 저지 문제 풀이 (C++, JS)
-- `프로그래머스/`: 프로그래머스 문제 풀이 (JS)
+### 📊 Status
+<p>
+  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sh2624" height="170" alt="백준 뱃지" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/sh2624/Programmers_Badge_Generator/main/result/result.svg" height="180" alt="프로그래머스 뱃지" />
+</p>
