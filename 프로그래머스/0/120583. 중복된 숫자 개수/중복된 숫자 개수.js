@@ -1,7 +1,7 @@
 function solution(array, n) {
     let cnt = 0;
-    for (let num of array) {
-        if (num === n) cnt++;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === n) cnt++;
     }
     
     return cnt;
