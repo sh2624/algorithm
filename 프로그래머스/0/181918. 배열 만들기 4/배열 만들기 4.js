@@ -1,11 +1,13 @@
 function solution(arr) {
-    let i = 0, stk = [];
+    const stk = [];
+    let i = 0;
+    
     while (i < arr.length) {
-        if (!stk.length) stk.push(arr[i++]); // 빈 배열일 경우
-        else { 
-            if (stk[stk.length - 1] < arr[i]) stk.push(arr[i++]);
-            else stk.splice(stk.pop());
+        if (stk.length === 0 || stk[stk.length - 1] < arr[i]) {
+            stk.push(arr[i]);
+            i++;
         }
+        else stk.pop();
     }
     
     return stk;
